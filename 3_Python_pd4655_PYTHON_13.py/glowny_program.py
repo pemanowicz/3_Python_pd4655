@@ -1,13 +1,3 @@
-# biologia.py
-from collection import Counter
-
-def opis_komorki():
-    return "Komorka to podstawowa jednostka zycia"
-
-def licz_nukleotydy(sekwencja):
-    return Counter(sekwencja)
-
-
 # Glowny program
 import os
 import datetime
@@ -15,7 +5,7 @@ import biologia
 
 # Tworzenie katalogu "dane_bio"
 katalog = "dane_bio"
-if not os.path.exist(katalog)
+if not os.path.exists(katalog):
    os.mkdir(katalog)  
    print(f"Katalog '{katalog}' zostal utworzony.")
 
