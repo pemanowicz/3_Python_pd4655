@@ -1,4 +1,4 @@
-# 1 zbiór i slownik z uniklanymi elementami
+# zbiór i slownik z uniklanymi elementami
 zbior_nukleotydow = {"A", "T", "G", "C"}
 slownik_geny = {
 	"BRCA1": "naprawa NDA",
@@ -6,7 +6,7 @@ slownik_geny = {
 	"EGFR": "sygnalizacja wzrostu",
 }
 
-# 2 Dodanie nowego elementu do zbioru 
+# Dodanie nowego elementu do zbioru 
 zbior_nukleotydow.add("U") 
 slownik_geny["MYC"] = "regulacja transkrypcji"
 
@@ -14,11 +14,11 @@ slownik_geny["MYC"] = "regulacja transkrypcji"
 print("Czy 'A' istnieje w zbiorze nukleotydow?", "A" in zbior_nukleotydow)
 print("Czy 'BRCA1' jest kluczem w slowniku genow?", "BRCA1" in slownik_geny)
 
-# 4 Usun jeden element zbioru 
+# 4 Usuniecie jednego element zbioru 
 zbior_nukleotydow.discard("G")
 print(f"Zbior nukleotydow po usunieciu elementu 'G':", zbior_nukleotydow)
 
-# 5 Wyswietl zawartosc slownika: klucze i wartosci za pomoca petli for 
+# 5 Wyswietlenie zawartosc slownika: klucze i wartosci za pomoca petli for 
 print("Zawartosc slownika geny:")
 for klucz, wartosc in slownik_geny.items():
 	print(f"Gen: {klucz}, Funkcja: {wartosc}")
