@@ -15,8 +15,8 @@ print("fragment2(od 5. do 12. nukleotydów):", fragment2)
 # 4 analiza sekwencji 
 liczba_atcg = polaczona_sekwencja.count("ATCG")
 pozycja_gcta = polaczona_sekwencja.find("GCTA")
-print("Liczba wystapien 'ATCG':", liczba_atcg)
-print("Pozycja 'GCTA':", liczba_gcta)
+print("Liczba wystapien 'ATCG':",liczba_atcg)
+print("Pozycja 'GCTA':", pozycja_gcta)
 
 # 5 Formatowanie
 formatted_output = f"Sekwencja:\n\t{polaczona_sekwencja}\nFragmenty:\n\t1. {fragment1}\n\t2. {fragment2}"
