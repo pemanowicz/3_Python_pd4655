@@ -12,7 +12,7 @@ macierz_ekspresji = np.array([
 print("Oryginalna macierz ekspresji:")
 print(macierz_ekspresji)
 
-# 2 Zwieksz ekspresje wszystkich genow o 5%
+# 2 Zwiekszenie ekspresje wszystkich genow o 5%
 macierz_zmieniona = macierz_ekspresji * 1.05
 print("\nMacierz po zwiększeniu ekspresji o 5%:")
 print(macierz_zmieniona)
@@ -24,7 +24,7 @@ print(srednia_genow)
 
 # 4 Obliczam sume ekspresji genow dla kazdej proby
 suma_prob = np.sum(macierz_zmieniona, axis=0)
-print("\nSuma ekspresji genow dla kazdej proby:")
+print("\nsuma ekspresji genow dla kazdej proby:")
 print(suma_prob)
 
 # 5 wprowadzenie wartosi Nan  dla kilku prob 
