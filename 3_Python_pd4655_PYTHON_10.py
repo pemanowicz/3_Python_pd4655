@@ -14,9 +14,9 @@ def sumuj_cechy_bialek(**kwargs):
     liczba_pI = 0
 
     for klucz, wartosc in kwargs.items():
-        if "masa" in klucz:  # Sprawdza, czy klucz dotyczy masy
+        if "masa" in klucz: 
             suma_mas += wartosc
-        elif "pI" in klucz:  # Sprawdza, czy klucz dotyczy punktu izoelektrycznego
+        elif "pI" in klucz: 
             suma_pI += wartosc
             liczba_pI += 1
 
