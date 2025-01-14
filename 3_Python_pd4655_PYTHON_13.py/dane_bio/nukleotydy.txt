@@ -1,0 +1,7 @@
+Wynik funckji licz_nukleotydy:
+A: 4
+G: 4
+C: 3
+T: 4
+
+Data utworzenia pliku: 2024-12-13 18:40:59.842587
