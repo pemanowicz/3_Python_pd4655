@@ -250,7 +250,8 @@ nukleotydy beda inne niz "ACTG" zostanie podana infromacja "Twoja sekwencja zawi
             file.write(f"{uzytkownik_nazwa}\n{uzytkownik_sekwencja}\n")
     print("Twoja sekwencja została zapisana do pliku 'sekwencje.txt'.")
 
-Jesli dane sa poprawne tworzymy nazwe dla nowej sekwencji, dodajemy nazwe i sekwencje do odpowiednich list oraz dopisujemy dane do pliku
+Jesli dane sa poprawne tworzymy nazwe dla nowej sekwencji, dodajemy nazwe i sekwencje do odpowiednich list oraz dopisujemy dane do pliku. Otwieramy plik "sekwencje.txt" a trybie "a" czyli append, 
+ktory pozwala nam dopisac cos na koncu pliku, bez usuwania tego co bylo wczesiej. File write dodaje dane do pliku.
 
 4 krokiem bylo Obliczenie zawartosci GC
 
